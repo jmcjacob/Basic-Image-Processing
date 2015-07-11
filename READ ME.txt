@@ -1,5 +1,0 @@
-The files are located in Assignment\Files
-The outputs are located in Assignment\Output
-
-Hope you enjoy
-Jacob Carse
