@@ -142,7 +142,7 @@ for(ci = 0; ci < 512; ci++)
         if (current < SSD)
           SSD = current
           Cleaned.setblock(ci,cj,shuffledBlock)
-          If (SSD == 0)
+          if (SSD == 0)
             Break
 WritePGM(cleaned)
 ```
