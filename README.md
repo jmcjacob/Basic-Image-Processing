@@ -90,13 +90,11 @@ The `NC` method just like the `SSD` method takes one argument and returns a doub
 meanA = mean() meanB = T.mean()
 part1 = 0; part2 = 0; part3 = 0;
 for (i = 0; i < M*N; i++)
-  {
   A = data[i] - meanA
   B = T.data[i] - meanB
   part1 += A * B;
   part2 += pow(A,2)
   part3 += pow(B,2)
-}
 return part1 / sqrt(part2*part3)
 ```
 
